@@ -15,8 +15,7 @@ struct ListView: View {
         NavigationStack {
             VStack {
                 if listViewModel.items.isEmpty {
-                    Text("No Items")
-                        .font(.title)
+                    NoItemsView()
                 } else {
                     List {
                         ForEach(listViewModel.items, content: { item in
