@@ -1,1 +1,3 @@
-ToDoList app implemented with MVVM architecture. With animation and other cool stuff. 
+ToDoList app implemented with MVVM architecture. 
+Persisting data with UserDefaults & JSon Decoder. 
+Also with cool animation. 
